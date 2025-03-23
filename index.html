@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple HTML/CSS Website</title>
+    <link rel="stylesheet" href="./src/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <script src="./src/index.js"></script>
+    <script>
+      (function (w, d, e, u, f, l, n) {
+        (w[f] =
+          w[f] ||
+          function () {
+            (w[f].q = w[f].q || []).push(arguments);
+          }),
+          (l = d.createElement(e)),
+          (l.async = 1),
+          (l.src = u),
+          (n = d.getElementsByTagName(e)[0]),
+          n.parentNode.insertBefore(l, n);
+      })(
+        window,
+        document,
+        "script",
+        "https://assets.mailerlite.com/js/universal.js",
+        "ml"
+      );
+      ml("account", "1389573");
+    </script>
+    <style type="text/css">
+      @import url("https://assets.mlcdn.com/fonts.css?version=1741253");
+    </style>
+  </head>
+
+  <body>
+    <div class="container-home container">
+      <header>
+        <nav>
+          <div class="logo"><h1>Nichola Zhang</h1></div>
+          <ul class="nav-links">
+            <!-- <li><a href="index.html">Home</a></li> -->
+            <li><a href="about.html">About</a></li>
+            <li><a href="book1.html">Books</a></li>
+            <li><a href="extras.html">Extras</a></li>
+            <div class="icon-menu-profile">
+              <div class="item-social-icon1">
+                <a
+                  href="https://www.instagram.com"
+                  target="_blank"
+                  class="social-icon1"
+                >
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </div>
+              <div class="item-social-icon2">
+                <a
+                  href="https://www.facebook.com"
+                  target="_blank"
+                  class="social-icon2"
+                >
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+              </div>
+            </div>
+          </ul>
+          <!-- Xóa thuộc tính onclick và không gọi toggleMenu trực tiếp ở đây -->
+          <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+        </nav>
+      </header>
+
+      <footer>
+        <div>
+          <div class="ml-embedded mailing_list" data-form="iQ8fxk"></div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
